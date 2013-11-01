@@ -1,1 +1,67 @@
-#Template for basic report
+\documentclass[11pt]{article}
+\usepackage{amsmath,amsfonts,amssymb,graphicx,float}
+%comment
+\begin{document}
+\begin{center}
+    {\Large\bf One Piece} %title
+    \\[1ex]
+    {\large\bf New World} %subtitle
+\end{center}
+
+%table
+\begin{center}
+    \begin{tabular}{| l  l |}
+        \hline
+	Name & Monkey D Luffy\\
+	Group & StrawHat Pirates\\
+	\hline
+    \end{tabular}
+\end{center}
+
+%Section without section number
+\section*{Strawhat Pirates}
+The strawhat pirates are an amazing group of pirates. The nine members are
+
+%List
+\begin{itemize}
+\item Luffy
+\item Zoro
+\item Sanji
+\item Nami
+\item Usopp
+\item Chopper
+\item Robin
+\item Franky
+\item Brook
+\end{itemize}
+
+%Table
+\begin{table}[H]
+\begin{center}
+	\begin{tabular} {| c | c | c |}
+	\hline
+	Name & Role & Ability\\
+	\hline
+	Luffy & Captain & Stretching\\
+	Zoro & Sleeper & Sword swinging\\
+	Sanji & Chef & Kicking\\
+	Nami & Navigator & Wind blowing\\
+	Usopp & Liar & Sniping\\
+	Chopper & Doctor & Monstering\\
+	Robin & Archaeologist & Flowering\\
+	Franky & Shipwright & Cyborging\\
+	Brook & Musician & Humming\\
+	\hline 
+	\end{tabular}
+	\caption{Strawhat Pirates}
+\end{center}
+\end{table}
+
+%Image
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.4]{images/shp}
+\caption{Strawhat Pirates}
+\end{figure}
+
+\end{document}
